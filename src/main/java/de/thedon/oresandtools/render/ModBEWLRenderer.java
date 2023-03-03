@@ -66,8 +66,8 @@ public class ModBEWLRenderer extends BlockEntityWithoutLevelRenderer {
             boolean flag = BlockItem.getBlockEntityData(pStack) != null;
             pPoseStack.pushPose();
             pPoseStack.scale(1.0F, -1.0F, -1.0F);
-//            Material material = flag ? OBSIDIAN_SHIELD_BASE : NO_PATTERN_OBSIDIAN_SHIELD;
-            Material material = flag ? SHIELD_BASE : NO_PATTERN_SHIELD;
+            Material material = flag ? OBSIDIAN_SHIELD_BASE : NO_PATTERN_OBSIDIAN_SHIELD;
+//            Material material = flag ? SHIELD_BASE : NO_PATTERN_SHIELD;
 //            Material material = NO_PATTERN_OBSIDIAN_SHIELD;
 //            Material material = NO_PATTERN_SHIELD;
             VertexConsumer vertexconsumer = material.sprite().wrap(ItemRenderer.getFoilBufferDirect(pBuffer, this.shieldModel.renderType(material.atlasLocation()), true, pStack.hasFoil()));
