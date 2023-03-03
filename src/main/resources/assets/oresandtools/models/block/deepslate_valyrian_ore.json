@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "oresandtools:block/deepslate_valyrian_ore"
+  }
+}

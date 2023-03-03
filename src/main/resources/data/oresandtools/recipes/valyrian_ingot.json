@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VVV",
+    "VSV",
+    "VVV"
+  ],
+  "key": {
+    "S": {
+      "item": "oresandtools:steel_ingot"
+    },
+    "V": {
+      "item": "oresandtools:valyrian_dust"
+    }
+  },
+  "result": {
+    "item": "oresandtools:valyrian_ingot"
+  }
+}
